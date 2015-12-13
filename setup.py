@@ -3,7 +3,7 @@
 
 from setuptools import setup
 
-setup(name='uc-numero-alumno',
+setup(name='ucnumber',
       version='0.1.0',
       description='Valida un número de alumno de la UC ',
       url='https://github.com/mrpatiwi/uc-numero-alumno-python',
@@ -11,4 +11,5 @@ setup(name='uc-numero-alumno',
       author_email='patricio@lopezjuri.com',
       license='MIT',
       packages=['ucnumber'],
+      keywords=['uc', 'puc', 'chile', 'numero', 'alumno'],
       zip_safe=False)
