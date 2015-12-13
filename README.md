@@ -34,6 +34,12 @@ Para instalarlo localmente desde este código fuente:
 python setup.py develop
 ```
 
+## Publicar
+
+```sh
+python setup.py register sdist upload
+```
+
 [ci-image]: https://travis-ci.org/mrpatiwi/uc-numero-alumno-python.svg
 [ci-url]: https://travis-ci.org/mrpatiwi/uc-numero-alumno-python
 [lint-image]: https://codeclimate.com/github/mrpatiwi/uc-numero-alumno-python/badges/gpa.svg
