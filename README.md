@@ -1,46 +1,50 @@
-# Validador de número de alumno UC
+# UC number validator
 
 [![Build Status][ci-image]][ci-url]  [![lint][lint-image]][lint-url]
 
-Valida un número de alumno de la UC.
+Validate UC alumni identifier numbers with Python 3.
 
-## Instalación
+## Getting started
+
+Install the library with:
 
 ```sh
 pip install -U ucnumber
 ```
 
-## Uso
+### Usage
 
 ```python
 from ucnumber import validate
 
 valid = validate('1263476J')
-valid = validate(14644088)
 
+if validate(14644088):
+  print('Is valid!')
+  # ...
 ```
 
 ## Testing
 
-Para correr los tests:
+Run the test suite with:
 
 ```sh
 python -m unittest tests
 ```
 
-Para instalarlo localmente desde este código fuente:
+To install it locally from the source code:
 
 ```sh
 python setup.py develop
 ```
 
-## Publicar
+## Publish
 
 ```sh
 python setup.py register sdist upload
 ```
 
-[ci-image]: https://travis-ci.org/mrpatiwi/uc-numero-alumno-python.svg
-[ci-url]: https://travis-ci.org/mrpatiwi/uc-numero-alumno-python
-[lint-image]: https://codeclimate.com/github/mrpatiwi/uc-numero-alumno-python/badges/gpa.svg
-[lint-url]: https://codeclimate.com/github/mrpatiwi/uc-numero-alumno-python
+[ci-image]: https://travis-ci.org/open-source-uc/validate-uc-number-py.svg
+[ci-url]: https://travis-ci.org/open-source-uc/validate-uc-number-py
+[lint-image]: https://codeclimate.com/github/open-source-uc/validate-uc-number-py/badges/gpa.svg
+[lint-url]: https://codeclimate.com/github/open-source-uc/validate-uc-number-py
