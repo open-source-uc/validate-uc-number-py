@@ -17,10 +17,10 @@ pip install -U ucnumber
 ```python
 from ucnumber import validate
 
-valid = validate('1263476J')
+is_valid = validate('1263476J')
 
 if validate(14644088):
-  print('Is valid!')
+  print('It's valid!')
   # ...
 ```
 
