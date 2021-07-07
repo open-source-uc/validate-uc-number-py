@@ -15,6 +15,9 @@ class ValidationTests(unittest.TestCase):
     def test_validation_as_string_with_J(self):
         self.assertTrue(validate('1263476J'))
 
+    def test_validation_as_string_with_digit_11(self):
+        self.assertTrue(validate('18640850'))
+
     def test_fail_on_invalid_number(self):
         self.assertFalse(validate(12635662))
 
