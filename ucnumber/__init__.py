@@ -28,4 +28,5 @@ def validate(identifier):
         counter = 2 if counter > 8 else counter
 
     digit = str(11 - total % 11) if (11 - total % 11 != 10) else 'J'
+    digit = '0' if digit == '11' else digit
     return given_digit == digit
