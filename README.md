@@ -1,6 +1,6 @@
 # UC number validator
 
-[![Build Status][ci-image]][ci-url]  [![lint][lint-image]][lint-url]
+[![lint][lint-image]][lint-url]
 
 Validate UC alumni identifier numbers with Python 3.
 
