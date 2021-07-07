@@ -3,11 +3,15 @@
 
 from setuptools import setup
 
+with open('README.md') as readme_file:
+    readme = readme_file.read()
+
 setup(name='ucnumber',
-      version='0.1.0',
+      version='0.1.2',
       description='Validate UC alumni identifier numbers.',
       url='https://github.com/mrpatiwi/uc-numero-alumno-python',
       author='Patricio López',
+      long_description=readme,
       author_email='patricio@lopezjuri.com',
       license='MIT',
       packages=['ucnumber'],
