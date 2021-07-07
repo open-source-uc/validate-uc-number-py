@@ -4,7 +4,7 @@
 from setuptools import setup
 
 setup(name='ucnumber',
-      version='0.1.0',
+      version='0.1.1',
       description='Validate UC alumni identifier numbers.',
       url='https://github.com/mrpatiwi/uc-numero-alumno-python',
       author='Patricio López',
